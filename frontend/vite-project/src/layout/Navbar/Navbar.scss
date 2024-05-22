@@ -1,0 +1,109 @@
+.NavbarIcons{
+    ul{
+        display: flex;
+        gap: 20px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 25px;
+       li{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+           height: 40px;
+           width: 40px; 
+           background-color: black;
+           color: white;
+           border-radius: 50%;
+        &:hover{
+            border-radius: 50%;
+            color: red;
+            transition: .4s;
+            cursor: pointer;
+        }
+       }
+    }
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.NavbarHeader{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.NavbarContact{
+    i{
+        display: none;
+    }
+    ul{
+        gap: 20px;
+        display: flex;
+
+        text-decoration: none;
+        list-style: none;
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 20px;
+            cursor: pointer;
+            &:hover{
+                color: orange;
+                transition: .4s;
+            }
+        }
+    }
+    }
+    .NavbarFooter{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    .NavbarLogo{
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .NavbarList{
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 680px){
+        .NavbarLogo{
+            display: none;
+            font-size: 50px;
+            font-weight: 900;
+        }
+        .NavbarContact{
+       
+            display: none;
+            ul{
+                gap: 20px;
+                display: flex;
+        
+                text-decoration: none;
+                list-style: none;
+                li{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    gap: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        color: orange;
+                        transition: .4s;
+                    }
+                }
+            }
+            }
+    }

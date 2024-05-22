@@ -1,0 +1,135 @@
+.Card {
+    width: 50%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.CardImage {
+    overflow: hidden;
+
+    img {
+
+        width: 100%;
+    }
+}
+
+.OurProducts {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    span {
+        color: gray;
+
+    }
+
+    h2 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    p {
+        color: grey;
+        text-align: center;
+        width: 540px;
+    }
+}
+
+.CardTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CardBtn {
+    flex-wrap: wrap;
+
+    button {
+        margin: 20px;
+        padding: 6px 20px;
+        border: none;
+        background: black;
+        color: white;
+        border: 2px solid black;
+
+        &:hover {
+            background: white;
+            color: black;
+            transition: .4s;
+        }
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 680px) {
+    .OurProducts {
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        span {
+            color: gray;
+
+        }
+
+        h2 {
+            font-size: 34px;
+            font-weight: 700;
+        }
+
+        p {
+            color: grey;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .CardBtn{
+        flex-wrap: wrap;
+        button{
+            margin: 20px;
+            padding: 6px 20px;
+            border: none;
+            background: black;
+            color: white;
+            border: 2px solid black;
+            &:hover{
+                background: white;
+                color: black;
+                transition: .4s;
+            }
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
